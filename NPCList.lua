@@ -62,6 +62,310 @@ addToDefaultNpcsToMark("Orgrimmar", "org_dummies", {
   ["0xF13000C55426FE5A"] = CROSS,
 })
 
+
+--/////////////// UPPER KARAZHAN ///////////////
+--As of 2025.05.28 Marks are only set up prior to the Outland portion
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "entrance_workers_plus_pat", {
+  ["0xF13000F1EF276B1D"] = DIAMOND, -- Duskfang Creeper
+  ["0xF13000F1ED276B19"] = TRIANGLE, -- Greater Gloomwing
+  ["0xF13000F1EE276B21"] = SKULL, -- Spectral Worker 1
+  ["0xF13000F1EE276B1F"] = CROSS, -- Spectral Worker 2
+  ["0xF13000F1EE276B20"] = SQUARE, -- Spectral Worker 3
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "entrance_top_ramp", {
+  ["0xF13000F1F1276B24"] = SKULL, -- Shadowclaw Worgen (left)
+  ["0xF13000F1F1276B23"] = CROSS, -- Shadowclaw Worgen (right)
+  ["0xF13000F1F1276B25"] = SQUARE, -- Spectral worker
+  ["0xF13000F1F2276B2C"] = CIRCLE, -- Shadowclaw Rager (pat)
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "entrance_first_bringer", {
+  ["0xF13000F1F0276B28"] = SKULL, -- Shadowclaw Darkbringer
+  ["0xF13000F1F2276B26"] = CROSS, -- Shadowclaw Rager
+  ["0xF13000F1F1276B29"] = SQUARE, -- Shadowclaw Worgen 1
+  ["0xF13000F1F1276B57"] = MOON, -- Shadowclaw Worgen 2
+  ["0xF13000F1F1276B27"] = DIAMOND, -- Shadowclaw Worgen 3
+  ["0xF13000F1F1276B2B"] = TRIANGLE, -- Shadowclaw Worgen 4
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "entrance_bat_spider_plus_pat", {
+  ["0xF13000F1F2276B31"] = CROSS, -- Shadowclaw Rager
+  ["0xF13000F1F276B32"] = SQUARE, -- Shadowclaw Worgen 1
+  ["0xF13000F1F276B30"] = MOON, -- Shadowclaw Worgen 2
+  ["0xF13000F1ED276B2F"] = TRIANGLE, -- Greater Gloomwing 1
+  ["0xF13000F1ED276B2E"] = CIRCLE, -- Greater Gloomwing 2
+  ["0xF13000F1EC276B2D"] = DIAMOND, -- Vampiric Gloomwing
+  ["0xF13000F1EF276B36"] = SKULL, -- Duskfang Creeper
+  ["0xF13000F1F0276B33"] = STAR, -- Shadowclaw Darkbringer (pat)
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_fourth_pack", {
+  ["0xF13000F1ED276B39"] = SKULL, -- Duskfang Gloomwing
+  ["0xF13000F1EE276B37"] = CROSS, -- Spectral worker 1
+  ["0xF13000F1EE276B38"] = SQUARE, -- Spectral worker 2
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_mini_pack", {
+  ["0xF13000F1EE276B3B"] = SKULL, -- Spectral worker
+  ["0xF13000F1F12763A"] = CROSS, -- Shadowclaw Worgen
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_fifth_pack", {
+  ["0xF13000F1F0276B40"] = SKULL, -- Shadowclaw Darkbringer
+  ["0xF13000F1F2276B42"] = CROSS, -- Shadowclaw Rager 1
+  ["0xF13000F1F2276B41"] = SQUARE, -- Shadowclaw Rager 2
+  ["0xF13000F1F1276B3D"] = MOON, -- Shadowclaw Worgen 1
+  ["0xF13000F1F1276B3E"] = DIAMOND, -- Shadowclaw Worgen 2
+  ["0xF13000F1F0276B43"] = TRIANGLE, -- Shadowclaw Darkbringer pat
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_single_worgen", {
+  ["0xF13000F1F1276B4B"] = SKULL, -- Single Shadowclaw Worgen
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_galley_pack", {
+  ["0xF13000F1F0276B4A"] = SKULL, -- Shadowclaw Darkbringer left
+  ["0xF13000F1F0276B48"] = CROSS, -- Shadowclaw Darkbringer right
+  ["0xF13000F1F1276B46"] = SQUARE, -- Shadowclaw Worgen middle/left
+  ["0xF13000F1EC276B44"] = MOON, -- Greater Gloomwing right
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_statue_room", {
+  ["0xF13000F1F0276B4D"] = SKULL, -- Shadowclaw Darkbringer
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_boss_room_single", {
+  ["0xF13000F1F1276B56"] = SKULL, -- Shadowclaw Worgen on back wall
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_boss_room_middle", {
+  ["0xF13000F1F0276B50"] = SKULL, -- Shadowclaw Darkbringer 1
+  ["0xF13000F1F0276B4F"] = CROSS, -- Shadowclaw Darkbringer 2
+  ["0xF13000F1F0276B53"] = SQUARE, -- Shadowclaw Darkbringer 3
+  ["0xF13000F1F2276B52"] = MOON, -- Shadowclaw Rager 1
+  ["0xF13000F1F2276B51"] = DIAMOND, -- Shadowclaw Rager 2
+  ["0xF13000F1F1276B54"] = TRIANGLE, -- Shadowclaw Worgen 1
+  ["0xF13000F1F1276B55"] = CIRCLE, -- Shadowclaw Worgen 2
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "post_gnarl_manascale_balcony", {
+  ["0xF13000F1F6276B9B"] = SKULL, -- Manascale Dragon Guard
+  ["0xF13000F1F7276B9E"] = CROSS, -- Manascale Suppressor
+  ["0xF13000F1F8276B9C"] = SQUARE, -- Manascale Mageweaver
+  ["0xF13000F1F8276B9F"] = MOON, -- Manascale Mageweaver (pat)
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "loner_manascale_left_corner", {
+  ["0xF13000F1F8276B97"] = SKULL, -- Manascale Mageweaver
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_third_pack", {
+  ["0xF13000F1F6276B60"] = SKULL, -- Manascale Dragon Guard
+  ["0xF13000F1F8276B62"] = CROSS, -- Manascale Mageweaver
+  ["0xF13000F1F8276B61"] = SQUARE, -- Manascale Mageweaver
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_right_pocket", {
+  ["0xF13000F1F8276B80"] = SKULL, -- Manascale Mageweaver 1
+  ["0xF13000F1F8276B81"] = CROSS, -- Manascale Mageweaver 2
+  ["0xF13000F1F8276B82"] = SQUARE, -- Manascale Mageweaver 3
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "manascale_patrols", {
+    ["0xF13000F1F4276B71"] = TRIANGLE, -- Manascale Drake (middle)
+  ["0xF13000F1F9276B5F"] = STAR, -- Manascale Overseer (pat)
+  ["0xF13000F1F7276B70"] = DIAMOND, -- Manascale Suppressor (pat)
+  ["0xF13000F1F6276B8C"] = CIRCLE, -- Manascale Dragon Guard (pat)
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_right_forward", {
+  ["0xF13000F1F6276B72"] = SKULL, -- Manascale Dragon Guard
+  ["0xF13000F1F8276B73"] = CROSS, -- Manascale Mageweaver
+  ["0xF13000F1F7276B74"] = SQUARE, -- Manascale Suppressor
+  ["0xF13000F1F7276B75"] = MOON, -- Manascale Suppressor
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_middle_forward", {
+  ["0xF13000F1F6276BA5"] = SKULL, -- Manascale Dragon Guard 1
+  ["0xF13000F1F6276BA1"] = CROSS, -- Manascale Dragon Guard 2
+  ["0xF13000F1F8276BA2"] = SQUARE, -- Manascale Mageweaver
+  ["0xF13000F1F7276BA4"] = MOON, -- Manascale Suppressor 1
+  ["0xF13000F1F7276BA3"] = DIAMOND, -- Manascale Suppressor 2
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_stairs_pat", {
+  ["0xF13000F1F7276BA0"] = TRIANGLE, -- Manascale suppressor (pat)
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_top_stairs", {
+  ["0xF13000F1F4276BAE"] = SKULL, -- Manascale Drake (middle)
+  ["0xF13000F1F6276BB2"] = CROSS, -- Manascale Dragon Guard (left)
+  ["0xF13000F1F6276BB1"] = SQUARE, -- Manascale Dragon Guard (right)
+  ["0xF13000F1F7276BAF"] = DIAMOND, -- Manascale Suppressor (left)
+  ["0xF13000F1F8276BB0"] = MOON, -- Manascale Mageweaver (right)
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_ramp_first_pack", {
+  ["0xF13000F1F62783E9"] = SKULL, -- Manascale Dragon Guard 1
+  ["0xF13000F1F62783E7"] = CROSS, -- Manascale Dragon Guard 2
+  ["0xF13000F1F72783E5"] = SQUARE, -- Manascale Suppressor
+  ["0xF13000F1F8276BC0"] = MOON, -- Manascale Mageweaver 1
+  ["0xF13000F1F82783E8"] = DIAMOND, -- Manascale Mageweaver 2
+  ["0xF13000F1F6276BC1"] = TRIANGLE, -- Manascale Dragon Guard (pat)
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_ramp_second_pack", {
+  ["0xF13000F1FC2783E4"] = SKULL, -- Unstable Arcane Elemental
+  ["0xF13000F1F7276BC2"] = CROSS, -- Manascale Suppressor 1
+  ["0xF13000F1F7276BC3"] = SQUARE, -- Manascale Suppressor 2
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_pre_anom_pack", {
+  ["0xF13000F1F7276BCB"] = SKULL, -- Manascale Suppressor
+  ["0xF13000F1FC276BCE"] = CROSS, -- Unstable Arcane Elemental 1
+  ["0xF13000F1FC2783E3"] = SQUARE, -- Unstable Arcane Elemental 2
+  ["0xF13000F1FB276BCF"] = MOON, -- Arcane Overflow 1
+  ["0xF13000F1FB276BCC"] = DIAMOND, -- Arcane Overflow 2
+  ["0xF13000F1FB276BCD"] = TRIANGLE, -- Arcane Overflow 3
+  ["0xF13000F1FE276BD6"] = CIRCLE, -- Arcane Anomaly (pat)
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_anom_room", {
+  ["0xF13000F1FD276BDA"] = SKULL, -- Disrupted Arcane Elemental
+  ["0xF13000F1FC276BD9"] = CROSS, -- Unstable Arcane Elemental 1
+  ["0xF13000F1FC276BDC"] = SQUARE, -- Unstable Arcane Elemental 2
+  ["0xF13000F1FB276BD8"] = MOON, -- Arcane Overflow 1
+  ["0xF13000F1FB2783E2"] = DIAMOND, -- Arcane Overflow 2
+  ["0xF13000F1FB276BDB"] = TRIANGLE, -- Arcane Overflow 3
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_stairs_pack", {
+  ["0xF13000F1FE276BE0"] = SKULL, -- Arcane Anomaly
+  ["0xF13000F1FD2783E1"] = CROSS, -- Disrupted Arcane Elemental
+  ["0xF13000F1FC276BDE"] = SQUARE, -- Unstable Arcane Elemental
+  ["0xF13000F1FB276BDD"] = MOON, -- Arcane Overflow 1
+  ["0xF13000F1FB276BE1"] = DIAMOND, -- Arcane Overflow 2
+  ["0xF13000F1FB276BDF"] = TRIANGLE, -- Arcane Overflow 3
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_ghost_mages_pats", {
+  ["0xF13000F205276D3E"] = MOON, -- Lingering Enchanter (pat)
+  ["0xF13000F203276D40"] = DIAMOND, -- Lingering Arcanist (pat)
+  ["0xF13000F1F7276D3C"] = TRIANGLE, -- Manascale Mageweaver (pat)
+  ["0xF13000F1FB276D3D"] = CIRCLE, -- Arcane Overflow 1 (pat)
+  ["0xF13000F1FB276D3F"] = STAR, -- Arcane Overflow 2 (pat)
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_ghost_left_pack", {
+  ["0xF13000F204276D3B"] = SQUARE, -- Lingering Astrologist
+  ["0xF13000F205276D39"] = MOON, -- Lingering Enchanter
+  ["0xF13000F202276D38"] = SKULL, -- Lingering Magus 1
+  ["0xF13000F202276D3A"] = CROSS, -- Lingering Magus 2
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_ghost_right_pack", {
+  ["0xF13000F202276D35"] = SKULL, -- Lingering Magus
+  ["0xF13000F204276D36"] = CROSS, -- Lingering Astrologist
+  ["0xF13000F203276D37"] = SQUARE, -- Lingering Arcanist
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_protector_outside", {
+  ["0xF1300F201276D60"] = SKULL, -- Karazhan Protector Golem
+  ["0xF13000F1FE276D4D"] = CIRCLE, -- Arcane Anomaly (pat)
+  ["0xF1300F201276D61"] = TRIANGLE, -- Karazhan Protector Golem (pat)
+  ["0xF13000F1FD2783DF"] = STAR, -- Disrupted Arcane Elemental (pat)
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_medivh_front_group", {
+  ["0xF13000F205276D33"] = DIAMOND, -- Lingering Enchanter
+  ["0xF13000F204276D32"] = SQUARE, -- Lingering Astrologist
+  ["0xF13000F203276D2F"] = MOON, -- Lingering Arcanist
+  ["0xF13000F202276D30"] = SKULL, -- Lingering Magus 1
+  ["0xF13000F202276D31"] = CROSS, -- Lingering Magus 2
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_medivh_left_group", {
+  ["0xF13000F1FE2783E6"] = SKULL, -- Arcane Anomaly
+  ["0xF13000F200276D62"] = CROSS, -- Crumbling Protector
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_medivh_right_back", {
+  ["0xF13000F200276D63"] = MOON, -- Crumbling Protector
+  ["0xF13000F203276D2D"] = CROSS, -- Lingering arcanist
+  ["0xF13000F204276D2B"] = SKULL, -- Lingering astrologist
+  ["0xF13000F205276D2C"] = SQUARE, -- Lingering enchanter
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_post_medivh_first", {
+  ["0xF13000F200276D64"] = SQUARE, -- Crumbling Protector
+  ["0xF13000F201276D65"] = CROSS, -- Karazhan Protector Golem
+  ["0xF13000F204276D43"] = SKULL, -- Lingering Astrologist
+  ["0xF13000F1FB276D47"] = MOON, -- Arcane Overflow
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_post_medivh_second", {
+  ["0xF13000F1FD2783E0"] = SQUARE, -- Disrupted Arcane Elemental
+  ["0xF13000F202276D49"] = SKULL, -- Lingering Magus
+  ["0xF13000F204276D4A"] = CROSS, -- Lingering Astrologist
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_pre_chess_first", {
+  ["0xF13000F202276D51"] = SKULL, -- Lingering Magus
+  ["0xF13000F203276D52"] = CROSS, -- Lingering Arcanist
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_pre_chess_golems", {
+  ["0xF13000F201276D67"] = SKULL, -- Karazhan Protector Golem 1
+  ["0xF13000F201276D66"] = CROSS, -- Karazhan Protector Golem 2
+  ["0xF13000F200276D68"] = SQUARE, -- Crumbling Protector
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_post_chess_left", {
+  ["0xF13000F205276D55"] = MOON, -- Lingering Enchanter
+  ["0xF13000F204276D56"] = CROSS, -- Lingering Astrologist
+  ["0xF13000F202276D53"] = SKULL, -- Lingering Magus
+  ["0xF13000F203276D54"] = SQUARE, -- Lingering Arcanist
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_post_chess_right", {
+  ["0xF13000F205276D5A"] = MOON, -- Lingering Enchanter
+  ["0xF13000F204276D58"] = CROSS, -- Lingering Astrologist
+  ["0xF13000F203276D5B"] = SQUARE, -- Lingering Arcanist
+  ["0xF13000F202276D57"] = SKULL, -- Lingering Magus
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_demons_hallway", {
+  ["0xF13000F48D278726"] = SQUARE, -- Desolate Destroyer
+  ["0xF13000F48C278725"] = SKULL, -- Desolate Invader 1
+  ["0xF13000F48C278724"] = CROSS, -- Desolate Invader 2
+  ["0xF13000F48D278716"] = DIAMOND, -- Desolate Destroyer (pat)
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_demons_right_outside", {
+  ["0xF13000F48D278712"] = SQUARE, -- Desolate Destroyer
+  ["0xF13000F48C278710"] = SKULL, -- Desolate Invader 1
+  ["0xF13000F48C278711"] = CROSS, -- Desolate Invader 2
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_demons_destroyer_pat", {
+  ["0xF13000F48D278716"] = DIAMOND, -- Desolate Destroyer (pat)
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_demons_left_outside", {
+  ["0xF13000F48D278715"] = SQUARE, -- Desolate Destroyer
+  ["0xF13000F48C278713"] = SKULL, -- Desolate Invader 1
+  ["0xF13000F48C278714"] = CROSS, -- Desolate Invader 2
+})
+
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_demons_mini_boss", {
+  ["0xF13000F48E27870B"] = MOON, -- Ima'ghaol, Herald of Desolation
+  ["0xF13000F48D27870C"] = CROSS, -- Desolate destroyer 1
+  ["0xF13000F48D27870D"] = SKULL, -- Desolate destroyer 2
+  ["0xF13000F48C27870F"] = SQUARE, -- Desolate Invader
+})
+
 --/////////////// Naxxramas ///////////////
 
 defaultNpcsToMark[L["Naxxramas"]] = {}
@@ -2051,332 +2355,4 @@ addToDefaultNpcsToMark(L["Stratholme"], "dead_pats", {
   ["0xF1300028A800D221"] = CIRCLE,-- Rockwing Gargoyle
   -- ["0xF130002A3900D22F"] = STAR,-- Stonespine -- need the mark for eye
   ["0xF1300028AB11E66C"] = STAR,-- Eye of Naxxramas
-})
-
---/////////////// UPPER KARAZHAN ///////////////
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_entrance", {
-  ["0xF13000F1EF276B1D"] = CROSS, -- Duskfang Creeper
-  ["0xF13000F1ED276B19"] = SKULL, -- Greater Gloomwing
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_before_ramp", {
-  ["0xF13000F1EE276B21"] = SKULL, -- Spectral Worker 1
-  ["0xF13000F1EE276B1F"] = CROSS, -- Spectral Worker 2
-  ["0xF13000F1EE276B20"] = SQUARE, -- Spectral Worker 3
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_pat_1", {
-  ["0xF13000F1F2276B2C"] = CIRCLE, -- Shadowclaw Rager pat
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_first_pack", {
-  ["0xF13000F1F1276B24"] = SKULL, -- Shadowclaw Worgen (left)
-  ["0xF13000F1F1276B23"] = CROSS, -- Shadowclaw Worgen (right)
-  ["0xF13000F1F1276B25"] = SQUARE, -- Spectral worker
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_second_pack", {
-  ["0xF13000F1F0276B28"] = SKULL, -- Shadowclaw Darkbringer
-  ["0xF13000F1F2276B26"] = CROSS, -- Shadowclaw Rager
-  ["0xF13000F1F1276B29"] = SQUARE, -- Shadowclaw Worgen 1
-  ["0xF13000F1F1276B57"] = MOON, -- Shadowclaw Worgen 2
-  ["0xF13000F1F1276B27"] = TRIANGLE, -- Shadowclaw Worgen 3
-  ["0xF13000F1F1276B2B"] = UNMARKED, -- Shadowclaw Worgen 4
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_third_pack", {
-  ["0xF13000F1F2276B31"] = SKULL, -- Shadowclaw Rager
-  ["0xF13000F1F276B32"] = CROSS, -- Shadowclaw Worgen 1
-  ["0xF13000F1F276B30"] = SQUARE, -- Shadowclaw Worgen 2
-  ["0xF13000F1ED276B2F"] = MOON, -- Greater Gloomwing 1
-  ["0xF13000F1ED276B2E"] = TRIANGLE, -- Greater Gloomwing 2
-  ["0xF13000F1EC276B2D"] = UNMARKED, -- Vampiric Gloomwing
-  ["0xF13000F1EF276B36"] = UNMARKED, -- Duskfang Creeper
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_pat_2", {
-  ["0xF13000F1F0276B33"] = DIAMOND, -- Shadowclaw Darkbringer pat
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_fourth_pack", {
-  ["0xF13000F1ED276B39"] = SKULL, -- Duskfang Gloomwing
-  ["0xF13000F1EE276B37"] = CROSS, -- Spectral worker 1
-  ["0xF13000F1EE276B38"] = SQUARE, -- Spectral worker 2
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_mini_pack", {
-  ["0xF13000F1EE276B3B"] = SKULL, -- Spectral worker
-  ["0xF13000F1F12763A"] = CROSS, -- Shadowclaw Worgen
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_fifth_pack", {
-  ["0xF13000F1F0276B40"] = SKULL, -- Shadowclaw Darkbringer
-  ["0xF13000F1F2276B42"] = CROSS, -- Shadowclaw Rager 1
-  ["0xF13000F1F2276B41"] = SQUARE, -- Shadowclaw Rager 2
-  ["0xF13000F1F1276B3D"] = MOON, -- Shadowclaw Worgen 1
-  ["0xF13000F1F1276B3E"] = TRIANGLE, -- Shadowclaw Worgen 2
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_single_worgen", {
-  ["0xF13000F1F1276B4B"] = SKULL, -- Single Shadowclaw Worgen
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_pat_3", {
-  ["0xF13000F1F0276B43"] = STAR, -- Shadowclaw Darkbringer pat
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_galley_pack", {
-  ["0xF13000F1F0276B4A"] = SKULL, -- Shadowclaw Darkbringer left
-  ["0xF13000F1F0276B48"] = CROSS, -- Shadowclaw Darkbringer right
-  ["0xF13000F1F1276B46"] = SQUARE, -- Shadowclaw Worgen middle/left
-  ["0xF13000F1EC276B44"] = MOON, -- Greater Gloomwing right
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_statue_room", {
-  ["0xF13000F1F0276B4D"] = SKULL, -- Shadowclaw Darkbringer
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_boss_room_single", {
-  ["0xF13000F1F1276B56"] = SKULL, -- Shadowclaw Worgen on back wall
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_boss_room_middle", {
-  ["0xF13000F1F0276B50"] = SKULL, -- Shadowclaw Darkbringer 1
-  ["0xF13000F1F0276B4F"] = CROSS, -- Shadowclaw Darkbringer 2
-  ["0xF13000F1F0276B53"] = SQUARE, -- Shadowclaw Darkbringer 3
-  ["0xF13000F1F2276B52"] = MOON, -- Shadowclaw Rager 1
-  ["0xF13000F1F2276B51"] = TRIANGLE, -- Shadowclaw Rager 2
-  ["0xF13000F1F1276B54"] = UNMARKED, -- Shadowclaw Worgen 1
-  ["0xF13000F1F1276B55"] = UNMARKED, -- Shadowclaw Worgen 2
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_first_pack", {
-  ["0xF13000F1F6276B9B"] = SKULL, -- Manascale Dragon Guard
-  ["0xF13000F1F7276B9E"] = CROSS, -- Manascale Suppressor
-  ["0xF13000F1F8276B9C"] = SQUARE, -- Manascale Mageweaver
-  ["0xF13000F1F8276B9F"] = CIRCLE, -- Manascale Mageweaver (pat)
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_whelps", {
-  ["0xF13000F1F8276B97"] = SKULL, -- Manascale Mageweaver
-  ["0xF13000F1F7276B70"] = DIAMOND, -- Manascale Suppressor (pat)
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_third_pack", {
-  ["0xF13000F1F6276B60"] = SKULL, -- Manascale Dragon Guard
-  ["0xF13000F1F8276B62"] = CROSS, -- Manascale Mageweaver
-  ["0xF13000F1F8276B61"] = SQUARE, -- Manascale Mageweaver
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_middle_room", {
-  ["0xF13000F1F4276B71"] = SKULL, -- Manascale Drake (middle)
-  ["0xF13000F1F9276B5F"] = STAR, -- Manascale Overseer (pat)
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_right_pocket", {
-  ["0xF13000F1F8276B80"] = SKULL, -- Manascale Mageweaver 1
-  ["0xF13000F1F8276B81"] = CROSS, -- Manascale Mageweaver 2
-  ["0xF13000F1F8276B82"] = SQUARE, -- Manascale Mageweaver 3
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_guard_pat", {
-  ["0xF13000F1F6276B8C"] = CIRCLE, -- Manascale Dragon Guard (pat)
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_right_forward", {
-  ["0xF13000F1F6276B72"] = SKULL, -- Manascale Dragon Guard
-  ["0xF13000F1F8276B73"] = CROSS, -- Manascale Mageweaver
-  ["0xF13000F1F7276B74"] = SQUARE, -- Manascale Suppressor
-  ["0xF13000F1F7276B75"] = MOON, -- Manascale Suppressor
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_middle_forward", {
-  ["0xF13000F1F6276BA5"] = SKULL, -- Manascale Dragon Guard 1
-  ["0xF13000F1F6276BA1"] = CROSS, -- Manascale Dragon Guard 2
-  ["0xF13000F1F8276BA2"] = SQUARE, -- Manascale Mageweaver
-  ["0xF13000F1F7276BA4"] = MOON, -- Manascale Suppressor 1
-  ["0xF13000F1F7276BA3"] = TRIANGLE, -- Manascale Suppressor 2
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_stairs_pat", {
-  ["0xF13000F1F7276BA0"] = DIAMOND, -- Manascale suppressor (pat)
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_dragon_top_stairs", {
-  ["0xF13000F1F4276BAE"] = SKULL, -- Manascale Drake (middle)
-  ["0xF13000F1F6276BB2"] = CROSS, -- Manascale Dragon Guard (left)
-  ["0xF13000F1F6276BB1"] = SQUARE, -- Manascale Dragon Guard (right)
-  ["0xF13000F1F7276BAF"] = MOON, -- Manascale Suppressor (left)
-  ["0xF13000F1F8276BB0"] = TRIANGLE, -- Manascale Mageweaver (right)
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_ramp_first_pack", {
-  ["0xF13000F1F62783E9"] = SKULL, -- Manascale Dragon Guard 1
-  ["0xF13000F1F62783E7"] = CROSS, -- Manascale Dragon Guard 2
-  ["0xF13000F1F72783E5"] = SQUARE, -- Manascale Suppressor
-  ["0xF13000F1F8276BC0"] = MOON, -- Manascale Mageweaver 1
-  ["0xF13000F1F82783E8"] = TRIANGLE, -- Manascale Mageweaver 2
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_ramp_pat", {
-  ["0xF13000F1F6276BC1"] = STAR, -- Manascale Dragon Guard (pat)
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_ramp_second_pack", {
-  ["0xF13000F1FC2783E4"] = SKULL, -- Unstable Arcane Elemental
-  ["0xF13000F1F7276BC2"] = CROSS, -- Manascale Suppressor 1
-  ["0xF13000F1F7276BC3"] = SQUARE, -- Manascale Suppressor 2
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_pre_anom_pack", {
-  ["0xF13000F1F7276BCB"] = SKULL, -- Manascale Suppressor
-  ["0xF13000F1FC276BCE"] = CROSS, -- Unstable Arcane Elemental 1
-  ["0xF13000F1FC2783E3"] = SQUARE, -- Unstable Arcane Elemental 2
-  ["0xF13000F1FB276BCF"] = MOON, -- Arcane Overflow 1
-  ["0xF13000F1FB276BCC"] = TRIANGLE, -- Arcane Overflow 2
-  ["0xF13000F1FB276BCD"] = UNMARKED, -- Arcane Overflow 3
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_anom_room", {
-  ["0xF13000F1FD276BDA"] = SKULL, -- Disrupted Arcane Elemental
-  ["0xF13000F1FC276BD9"] = CROSS, -- Unstable Arcane Elemental 1
-  ["0xF13000F1FC276BDC"] = SQUARE, -- Unstable Arcane Elemental 2
-  ["0xF13000F1FB276BD8"] = MOON, -- Arcane Overflow 1
-  ["0xF13000F1FB2783E2"] = TRIANGLE, -- Arcane Overflow 2
-  ["0xF13000F1FB276BDB"] = UNMARKED, -- Arcane Overflow 3
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_anom_pat", {
-  ["0xF13000F1FE276BD6"] = CIRCLE, -- Arcane Anomaly (pat)
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_stairs_pack", {
-  ["0xF13000F1FE276BE0"] = SKULL, -- Arcane Anomaly
-  ["0xF13000F1FD2783E1"] = CROSS, -- Disrupted Arcane Elemental
-  ["0xF13000F1FC276BDE"] = SQUARE, -- Unstable Arcane Elemental
-  ["0xF13000F1FB276BDD"] = MOON, -- Arcane Overflow 1
-  ["0xF13000F1FB276BE1"] = TRIANGLE, -- Arcane Overflow 2
-  ["0xF13000F1FB276BDF"] = UNMARKED, -- Arcane Overflow 3
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_ghost_mages_pats", {
-  ["0xF13000F205276D3E"] = CIRCLE, -- Lingering Enchanter (pat)
-  ["0xF13000F203276D40"] = DIAMOND, -- Lingering Arcanist (pat)
-  ["0xF13000F1F7276D3C"] = STAR, -- Manascale Mageweaver (pat)
-  ["0xF13000F1FB276D3D"] = UNMARKED, -- Arcane Overflow 1 (pat)
-  ["0xF13000F1FB276D3F"] = UNMARKED, -- Arcane Overflow 2 (pat)
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_ghost_left_pack", {
-  ["0xF13000F204276D3B"] = SKULL, -- Lingering Astrologist
-  ["0xF13000F205276D39"] = CROSS, -- Lingering Enchanter
-  ["0xF13000F202276D38"] = SQUARE, -- Lingering Magus 1
-  ["0xF13000F202276D3A"] = MOON, -- Lingering Magus 2
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_ghost_right_pack", {
-  ["0xF13000F202276D35"] = SKULL, -- Lingering Magus
-  ["0xF13000F204276D36"] = CROSS, -- Lingering Astrologist
-  ["0xF13000F203276D37"] = SQUARE, -- Lingering Arcanist
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_protector_outside", {
-  ["0xF1300F201276D60"] = SKULL, -- Karazhan Protector Golem
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_protector_stairs_pat", {
-  ["0xF1300F201276D61"] = DIAMOND, -- Karazhan Protector Golem (pat)
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_anomaly_stairs_pat", {
-  ["0xF13000F1FE276D4D"] = STAR, -- Arcane Anomaly (pat)
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_medivh_front_group", {
-  ["0xF13000F205276D33"] = SKULL, -- Lingering Enchanter
-  ["0xF13000F204276D32"] = CROSS, -- Lingering Astrologist
-  ["0xF13000F203276D2F"] = SQUARE, -- Lingering Arcanist
-  ["0xF13000F202276D30"] = MOON, -- Lingering Magus 1
-  ["0xF13000F202276D31"] = TRIANGLE, -- Lingering Magus 2
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_medivh_left_group", {
-  ["0xF13000F1FE2783E6"] = SKULL, -- Arcane Anomaly
-  ["0xF13000F200276D62"] = CROSS, -- Crumbling Protector
-  ["0xF13000F1FD2783DF"] = CIRCLE, -- Disrupted Arcane Elemental (pat)
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_medivh_right_back", {
-  ["0xF13000F200276D63"] = SKULL, -- Crumbling Protector
-  ["0xF13000F203276D2D"] = CROSS, -- Lingering arcanist
-  ["0xF13000F204276D2B"] = SQUARE, -- Lingering astrologist
-  ["0xF13000F205276D2C"] = MOON, -- Lingering enchanter
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_post_medivh_first", {
-  ["0xF13000F200276D64"] = SKULL, -- Crumbling Protector
-  ["0xF13000F201276D65"] = CROSS, -- Karazhan Protector Golem
-  ["0xF13000F204276D43"] = SQUARE, -- Lingering Astrologist
-  ["0xF13000F1FB276D47"] = MOON, -- Arcane Overflow
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_post_medivh_second", {
-  ["0xF13000F1FD2783E0"] = SKULL, -- Disrupted Arcane Elemental
-  ["0xF13000F202276D49"] = CROSS, -- Lingering Magus
-  ["0xF13000F204276D4A"] = SQUARE, -- Lingering Astrologist
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_pre_chess_first", {
-  ["0xF13000F202276D51"] = SKULL, -- Lingering Magus
-  ["0xF13000F203276D52"] = CROSS, -- Lingering Arcanist
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_pre_chess_golems", {
-  ["0xF13000F201276D67"] = SKULL, -- Karazhan Protector Golem 1
-  ["0xF13000F201276D66"] = CROSS, -- Karazhan Protector Golem 2
-  ["0xF13000F200276D68"] = SQUARE, -- Crumbling Protector
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_post_chess_left", {
-  ["0xF13000F205276D55"] = SKULL, -- Lingering Enchanter
-  ["0xF13000F204276D56"] = CROSS, -- Lingering Astrologist
-  ["0xF13000F202276D53"] = SQUARE, -- Lingering Magus
-  ["0xF13000F203276D54"] = MOON, -- Lingering Arcanist
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_post_chess_right", {
-  ["0xF13000F205276D5A"] = SKULL, -- Lingering Enchanter
-  ["0xF13000F204276D58"] = CROSS, -- Lingering Astrologist
-  ["0xF13000F203276D5B"] = SQUARE, -- Lingering Arcanist
-  ["0xF13000F202276D57"] = MOON, -- Lingering Magus
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_demons_hallway", {
-  ["0xF13000F48D278726"] = SKULL, -- Desolate Destroyer
-  ["0xF13000F48C278725"] = CROSS, -- Desolate Invader 1
-  ["0xF13000F48C278724"] = SQUARE, -- Desolate Invader 2
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_demons_right_outside", {
-  ["0xF13000F48D278712"] = SKULL, -- Desolate Destroyer
-  ["0xF13000F48C278710"] = CROSS, -- Desolate Invader 1
-  ["0xF13000F48C278711"] = SQUARE, -- Desolate Invader 2
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_demons_destroyer_pat", {
-  ["0xF13000F48D278716"] = DIAMOND, -- Desolate Destroyer (pat)
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_demons_left_outside", {
-  ["0xF13000F48D278715"] = SKULL, -- Desolate Destroyer
-  ["0xF13000F48C278713"] = CROSS, -- Desolate Invader 1
-  ["0xF13000F48C278714"] = SQUARE, -- Desolate Invader 2
-})
-
-addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_demons_mini_boss", {
-  ["0xF13000F48E27870B"] = SKULL, -- Ima'ghaol, Herald of Desolation
-  ["0xF13000F48D27870C"] = CROSS, -- Desolate destroyer 1
-  ["0xF13000F48D27870D"] = SQUARE, -- Desolate destroyer 2
-  ["0xF13000F48C27870F"] = MOON, -- Desolate Invader
 })
