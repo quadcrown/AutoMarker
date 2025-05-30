@@ -366,6 +366,24 @@ addToDefaultNpcsToMark(L["Tower of Karazhan"], "upper_demons_mini_boss", {
   ["0xF13000F48C27870F"] = SQUARE, -- Desolate Invader
 })
 
+addToDefaultNpcsToMark(L["Tower of Karazhan"], "boss_rupt_phase1", {
+  ["0xF13000EA38073D38"] = SKULL, -- Rupt Add1
+  ["0xF13000EA38073D39"] = CROSS, -- Rupt Add2
+  ["0xF13000EA38073D36"] = SQUARE, -- Rupt Add3
+  ["0xF13000EA38073D37"] = MOON, -- Rupt Add4
+  ["0XF13000EA39073D35"] = TRIANGLE, -- Rupt
+})
+  
+  addToDefaultNpcsToMark(L["Tower of Karazhan"], "dreadlord_field", {
+  ["0xF13000F23F276D12"] = SKULL, -- Dreadlord1
+  ["0xF13000F23F276D17"] = CROSS, -- Dreadlord2
+  ["0xF13000F23F276D14"] = SQUARE, -- Dreadlord3
+  ["0xF13000F23F276D13"] = MOON, -- Dreadlord4
+  ["0XF13000EA39073D35"] = DIAMOND, -- Dreadlord5
+  ["0xF13000F23F276D15"] = TRIANGLE, -- Dreadlord6
+  ["0xF13000F23F276D16"] = CIRCLE, -- Dreadlord7
+})  
+  
 --/////////////// Naxxramas ///////////////
 
 defaultNpcsToMark[L["Naxxramas"]] = {}
